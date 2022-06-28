@@ -1,0 +1,79 @@
+body, html{
+    height: 100%;
+    margin:0px;
+    background-color:black;
+    color:white;
+
+}
+
+nav li{
+display: inline; 
+padding:.45%;
+}
+
+nav ul{
+    margin:0px;
+    list-style-type:none;
+    width:650%;
+    background-color:black;
+    padding:0px;
+}
+
+
+nav{
+    display:block;
+    color:white;
+    position:fixed;
+    text-align:right;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+}
+
+nav a:hover{
+    color:red;
+}
+
+.hero-image{
+    background-image:url("../image/ironman1.jpg");
+    width:100%;
+    height:50%;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-text{
+    color:white;
+    position:absolute;
+    left:2%;
+    bottom:90%;
+}
+
+#main{
+    width:80%;
+    float: left
+}
+
+
+#side{
+    float:right;
+}
+
+.side-links li{
+    list-style-type:none;
+    text-align:center;
+    
+}
+
+#side{
+    background-color:black;
+    text-align:center;
+}
+
+.side-links li a:visited, unvisited{
+    color:white;
+}
+
